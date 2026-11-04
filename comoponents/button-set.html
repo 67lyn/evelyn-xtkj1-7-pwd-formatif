@@ -1,18 +1,22 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Button set</title>
+
     <style>
 
 body {
-    background-color: #f4f4f4;
+    background-color: #E6E5D5;
+    background-image: radial-gradient(#BFB9A3 2px, transparent 2px);
+    background-size: 24px 24px;
     font-family: Arial, sans-serif;
 }
 
 h2 {
-    color: #222222;
+    color: #66281F;
     font-size: 20px;
 }
 
@@ -23,6 +27,7 @@ h2 {
     font-weight: bold;
     text-decoration: none;
     transition: 0.3s;
+    border: 2px solid white;
 }
 
 .button-group .btn {
@@ -41,53 +46,52 @@ h2 {
 }
 
 .btn-outline {
-    background-color:    rgb(173, 173, 173);
-    color: black;
-}
-
-.btn-send {
-    background-color: #c2bfa6;
+    background-color: #ADADAD;
     color: white;
 }
 
-.btn{
-    border: 2px solid white;
-}
-
-
-.btn-secondary,
-.btn-outline {
+.btn-send {
+    background-color: #BFB9A3;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color:#994D47;
+    background-color: #994D47;
 }
 
 .btn-secondary:hover {
-    background-color: #bc9f78;
+    background-color: #BC9F78;
 }
 
 .btn-outline:hover {
-    background-color:   rgb(188, 187, 187);
+    background-color: #BCBBBB;
     color: white;
 }
 
 .btn-send:hover {
     background-color: #E6E5D5;
+    color: #66281F;
 }
 
 footer a {
-    color: purple;
+    color: #994D47;
     font-size: 13px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #66281F;
+    text-decoration: underline;
 }
 
     </style>
 </head>
+
 <body>
-<main> 
-    <H2>Kumpulan tombol</H2>
-    
+
+<main>
+    <h2>Kumpulan tombol</h2>
+
     <div class="button-group">
         <a href="#" class="btn btn-primary">Lihat Proyek</a>
         <a href="#" class="btn btn-secondary">Unduh CV</a>
@@ -99,7 +103,6 @@ footer a {
 <footer>
     <a href="#">Kembali ke beranda</a>
 </footer>
-
 
 </body>
 </html>

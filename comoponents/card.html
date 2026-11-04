@@ -1,0 +1,105 @@
+
+<!-- Perhitungan lebar kartu -->
+<!-- Lebar 320px + padding 40px + border 4px = 364px -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+
+    <style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #E6E5D5;
+    background-image: radial-gradient(#BFB9A3 2px, transparent 2px);
+    background-size: 24px 24px;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 320px;
+    padding: 20px;
+    border: 2px solid #66281F;
+    border-radius: 10px;
+    background-color:white ;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.card h3 {
+    color: #66281F;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 15px;
+    color: #994D47;
+}
+
+.card a {
+    font-size: 15px;
+    color: #994D47;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: #66281F;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #994D47;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #66281F;
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <img src="/assets/images/cake.png" alt="Card Image">
+
+            <h3>
+                Website Project Toko Online
+            </h3>
+
+            <p>
+                <!-- Deskripsi proyek -->
+            </p>
+            <p>
+                Ini adalah proyek website untuk toko online yang sedang saya kembangkan.
+            </p>
+            <a href="#">Lihat Proyek</a>
+        </div>
+
+        <footer>
+            <a href="index.html">Kembali Ke Beranda</a>
+        </footer>
+    </main>
+</body>
+</html>
