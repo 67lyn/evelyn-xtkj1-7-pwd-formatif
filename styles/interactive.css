@@ -1,0 +1,76 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    /* Vintage Polka Dot Background */
+    background-color: #E6E5D5;
+    background-image: radial-gradient(#BFB9A3 2px, transparent 2px);
+    background-size: 24px 24px;
+}
+
+/* Navigation Menu */
+.menu {
+    background-color: #66281F;
+    padding: 20px;
+}
+
+.menu a {
+    color: #E6E5D5;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #BFB9A3;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #E6E5D5;
+    margin: 15px;
+}
+
+.btn-grow {
+    background-color: #994D47;
+    transition: transform 0.3s ease-out;
+}
+
+.btn-grow:hover {
+    transform: scale(1.05);
+}
+
+.btn-darken {
+    background-color: #9D8361;
+    transition: background-color 0.4s linear;
+}
+
+.btn-darken:hover {
+    background-color: #66281F;
+}
+
+/* Keyboard Focus */
+a:focus {
+    outline: 2px solid #994D47;
+    outline-offset: 3px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+}
+
+footer a {
+    color: #994D47;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #66281F;
+}
