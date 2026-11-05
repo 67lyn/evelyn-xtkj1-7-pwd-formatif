@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+    <style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #E6E5D5;
+    background-image: radial-gradient(#BFB9A3 2px, transparent 2px);
+    background-size: 24px 24px;
+    font-family: Arial, sans-serif;
+}
+
+#contact {
+    padding: 40px 20px;
+}
+
+.contact-form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px;
+    border: 2px solid #66281F;
+    border-radius: 12px;
+    background-color: #FFFDF5;
+    box-shadow: 0 8px 20px rgba(102, 40, 31, 0.15);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #66281F;
+    margin-bottom: 24px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #66281F;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #994D47;
+    border-radius: 6px;
+    background-color: #E6E5D5;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #66281F;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(153, 77, 71, 0.3);
+}
+
+.btn-submit {
+    background-color: #994D47;
+    color: #E6E5D5;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #66281F;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <section id="contact">
+        <form class="contact-form">
+
+            <h2>Hubungi Saya</h2>
+
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama"
+                       placeholder="Masukkan nama Anda...">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Masukkan email Anda...">
+            </div>
+
+            <div class="form-group">
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" rows="5"
+                          placeholder="Tulis pesan Anda di sini..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">
+                Kirim Pesan
+            </button>
+
+        </form>
+    </section>
+
+</body>
+</html>
