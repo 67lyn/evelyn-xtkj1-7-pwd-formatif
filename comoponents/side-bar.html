@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #E6E5D5;
+    background-image: radial-gradient(#BFB9A3 2px, transparent 2px);
+    background-size: 24px 24px;
+    font-family: Arial, sans-serif;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+#sidebar {
+    width: 25%;
+    background-color: #66281F;
+    color: #E6E5D5;
+    padding: 20px;
+}
+#sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#sidebar a {
+    color: #E6E5D5;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+#sidebar a:hover {
+    text-decoration: none;
+    background-color: #994D47;
+}
+.main-content {
+    width: 75%;
+    padding: 30px;
+}
+.main-content h1 {
+    color: #66281F;
+    margin-top: 0;
+    line-height: 1.8;
+}
+.main-content p {
+    color: #994D47;
+    line-height: 1.6;
+}
+a {
+    line-height: 1.7;
+}
+footer {
+    text-align: center;
+    padding: 14px;
+    background-color: #BFB9A3;
+}
+footer a {
+    color: #66281F;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #994D47;
+    text-decoration: underline;
+}
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    #sidebar,
+    .main-content {
+        width: 100%;
+    }
+
+    #sidebar nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+</style>
+</head>
+
+<body>
+    <div class="layout">
+        <aside id="sidebar">
+            <h3>Menu</h3>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <h1>Profil saya</h1>
+
+            <p>Saya Evelyn, siswi 10 TKJ 1. Saya sedang belajar membuat website dengan HTML dan CSS.</p>
+
+            <p>Di halaman ini adalah ringkasan tentang proyek saya yang sudah dibuat, dan kemampuan yang di pelajari.</p>
+
+            <p>Gunakan menu di sebelah kiri untuk navigasi.</p>
+        </main>
+    </div>
+    <footer>
+        <a href="../index.html">Kembali ke beranda</a>
+    </footer>
+</body>
+</html>
