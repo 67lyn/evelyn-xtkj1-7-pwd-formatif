@@ -1,0 +1,64 @@
+
+/* Vintage Polka Dot Background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E6E5D5;
+    background-image: radial-gradient(#BFB9A3 2px, transparent 2px);
+    background-size: 24px 24px;
+}
+
+#gallery {
+    width: 900px;
+    max-width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#gallery h2 {
+    text-align: center;
+    color: #66281F;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery > .gallery-item {
+    padding: 12px;
+    border: 1px solid #66281F;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #FFFDF5;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.gallery-item h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    color: #994D47;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #994D47;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #66281F;
+}
